@@ -1,49 +1,49 @@
 export default  [
     {
         id: 1,
-        question : "Javascript is an _______ language",
+        question : "Blue is what number on the resistor color code?",
         options : [
-            'Object-Oriented',
-            'Object-Based',
-            'Procedural',
+            '1',
+            '2',
+            '6',
         ]
     },
     {
         id: 2,
-        question : "Following methods can be used to display data in some form using Javascript",
+        question : "In which decade was the American Institute of Electrical Engineers (AIEE) founded?",
         options : [
-            'document.write()',
-            'console.log()',
-            'window.alert()',
+            '1850s',
+            '1880s',
+            '1930s',
         ]
     },
     {
         id: 3,
-        question : "When an operator value is NULL, the typeof returned by the unary operator is:",
+        question : "What is part of a database that holds only one type of information?",
         options : [
-            'Boolean',
-            'Undefined',
-            'Object',
+            'Report',
+            'Field',
+            'Record',
         ]
     },
     {
         id: 4,
-        question : "What does the toString() method return?",
+        question : "What does EPROM stand for?",
         options : [
-            'Return Object',
-            'Return String',
-            'Return Integer'
+            'Electric Programmable Read Only Memory',
+            'Evaluable Philotic Random Optic Memory',
+            'Erasable Programmable Read Only Memory'
         ]
     },
     {
         id: 5,
-        question : "Which function is used to serialize an object into a JSON string?",
+        question : "What was the active medium used in the first working laser ever constructed?",
         options : [
-            'stringify()',
-            'parse()',
-            'convert()',
+            'A ruby rod',
+            'Helium-neon gas',
+            'A diamond block',
         ]
     }
 ];
 
-export const answers = [0, 1, 2, 1, 0];
+export const answers = [2, 1, 1, 2, 0];
