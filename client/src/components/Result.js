@@ -51,7 +51,7 @@ export default function Result() {
         <div className='result flex-center'>
             <div className='flex'>
                 <span>Username</span>
-                <span className='bold'>Sania</span>
+                <span className='bold'>{userId || ''}</span>
             </div>
             <div className='flex'>
                 <span>Total Quiz Points : </span>
